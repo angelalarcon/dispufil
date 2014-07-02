@@ -1,0 +1,204 @@
+@font-face {
+    font-family: Bebas Neue;
+    src: url(../fonts/bebasneue.otf);
+}
+
+header {
+	padding: 20px 0;
+	border-top: 20px solid #065a9e;
+}
+
+a:focus {
+	outline: 0;
+}
+
+#menu {
+	position: relative;
+	box-shadow: 0 4px 5px #e8e8e8;
+	height: 40px;
+	margin-bottom: -40px;
+	z-index: 999;
+}
+
+#menu:before {
+	content: " ";
+	opacity: 0.8;
+	position: absolute;
+	width: 50%;
+	height: 40px;
+	display: block;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(right, transparent 0%, #FFFFFF 20%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(right, transparent 0%, #FFFFFF 20%);
+
+	/* Opera */ 
+	background-image: -o-linear-gradient(right, transparent 0%, #FFFFFF 20%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, right top, left top, color-stop(0, transparent), color-stop(1, #FFFFFF));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(right, transparent 0%, #FFFFFF 20%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to right, transparent 0%, #FFFFFF 20%);
+}
+
+#menu:after {
+	content: " ";
+	opacity: 0.8;
+	position: absolute;
+	width: 50%;
+	height: 40px;
+	display: block;
+	right: 0;
+	top: 0;
+	z-index: -1;
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(left, transparent 0%, #FFFFFF 20%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(left, transparent 0%, #FFFFFF 20%);
+
+	/* Opera */ 
+	background-image: -o-linear-gradient(left, transparent 0%, #FFFFFF 20%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, transparent), color-stop(1, #FFFFFF));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(left, transparent 0%, #FFFFFF 20%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to left, transparent 0%, #FFFFFF 20%);
+}
+
+#menu a {
+	font-weight: bold;
+	color: #646464;
+}
+
+#menu .nav-tabs.nav-justified>li>a {
+	border-bottom: none;
+}
+
+#menu ul {
+	border-color: transparent;
+}
+
+#menu a:focus {
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#menu .nav-tabs.nav-justified>.active>a, #menu .nav-tabs.nav-justified>.active>a:hover, #menu .nav-tabs.nav-justified>.active>a:focus {
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#menu .nav>li>a:hover, #menu .nav>li>a:focus {
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#home_carousel .carousel-indicators {
+	left: 15%;
+	bottom: 10%;
+}
+
+#home_carousel .item {
+	position: relative;
+}
+
+#home_carousel .item>img {
+	width: 100%;
+}
+
+#home_carousel .carousel-control.right, #home_carousel .carousel-control.left {
+	background: transparent;
+	z-index: 999;
+}
+
+.banner-left {
+	position: absolute;
+	left: 0;
+	bottom: 20%;
+	padding: 10px;
+	font-size: 36px;
+	width: 30%;
+	text-align: right;
+	line-height: 1;
+	color: #fff;
+	z-index: 2;
+	font-family: Bebas Neue;
+}
+
+.banner-left:before {
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #aaa;
+	opacity: 0.3;
+	z-index: -1;
+}
+
+.banner-right {
+	position: absolute;
+	right: 15%;
+	top: 25%;
+	padding: 10px;
+	width: 30%;
+	line-height: 1;
+	color: #fff;
+	z-index: 2;
+	font-family: Bebas Neue;
+	padding-right: 10%;
+}
+
+.banner-right h2 {
+	margin-top: 0;
+}
+
+.banner-right p {
+	font-family: Helvetica;
+	margin-bottom: 0;
+}
+
+.banner-right:before {
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #aaa;
+	opacity: 0.3;
+	z-index: -1;
+}
+
+.banner-img {
+	position: absolute;
+	bottom: 15%;
+	right: 3%;
+	z-index: 5;
+}
+
+.banner-img .zoom-img {
+	position: absolute;
+	left: -30%;
+	bottom: -15%;
+}
+
+footer {
+	position: relative;
+	padding: 20px 0;
+	background-color: #b3b3b2;
+}
