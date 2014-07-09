@@ -109,10 +109,7 @@ a:focus {
 #home_carousel .carousel-indicators {
 	left: 15%;
 	bottom: 10%;
-}
-
-#home_carousel .item {
-	position: relative;
+	z-index: 999;
 }
 
 #home_carousel .item>img {
@@ -201,4 +198,46 @@ footer {
 	position: relative;
 	padding: 20px 0;
 	background-color: #b3b3b2;
+	color: #fff;
+}
+
+footer .input-group {
+	margin: 40px auto;
+}
+
+footer .input-group input {
+	background-color: #d6d5d5;
+	border: 1px solid #fff;
+	border-radius: 0;
+}
+
+footer .input-group-btn {
+	margin-left: -50px;
+	display: inline-block;
+	z-index: 999;
+	line-height: 32px;
+}
+
+footer .input-group input::-webkit-input-placeholder {
+	color: #fff;
+}
+
+footer p {
+	margin-bottom: 5px;
+}
+
+.footer-block {
+	min-height: 80px;
+	border-left: 1px solid #fff;
+	padding-left: 10px;
+	font-size: 12px;
+}
+
+.footer-block a {
+	color: #fff;
+}
+
+.footer-block a:hover {
+	color: #fff;
+	text-decoration: none;
 }
