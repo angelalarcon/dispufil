@@ -79,8 +79,10 @@ a:focus {
 }
 
 #menu a {
+	position: relative;
 	font-weight: bold;
 	color: #646464;
+	z-index: 999;
 }
 
 #menu .nav-tabs.nav-justified>li>a {
@@ -104,6 +106,51 @@ a:focus {
 #menu .nav>li>a:hover, #menu .nav>li>a:focus {
 	border-color: transparent;
 	background-color: transparent;
+}
+
+#menu .nav>li>a:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.hover-options {
+	background-color: rgba(255, 255, 255, 0.5);
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding: 40px 0 0;
+}
+
+.hover-options ul {
+	padding: 0;
+}
+
+.hover-options ul li {
+	list-style: none;
+	text-align: center;
+}
+
+.hover-options ul li a {
+	padding: 10px;
+	display: block;
+}
+
+.hover-options ul li a:hover {
+	background-color: rgba(71, 44, 216, 0.6);
+	color: #fff !important;
+	text-decoration: none;
+}
+
+#products-menu {
+	display: none;
+}
+
+#products-link:hover + #products-menu {
+	display: block;
+}
+
+#products-menu:hover {
+	display: block;
 }
 
 #home_carousel .carousel-indicators {
@@ -194,6 +241,63 @@ a:focus {
 	bottom: -15%;
 }
 
+#products {
+	background-image: url(../images/fondo-contact.jpg);
+	padding: 70px 0 20px;
+	min-height: 600px;
+}
+
+.blue-text {
+	color: #065a9e;
+}
+
+.item-preview {
+	width: 18%;
+	margin: 1%;
+	border: 3px solid #065a9e;
+	position: relative;
+	display: inline-block;
+}
+
+.item-preview:first-child {
+	margin-left: 0;
+}
+
+.item-preview:last-child {
+	margin-right: 0;
+}
+
+.square-item {
+	margin-top: 100%;
+}
+
+.square-content {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	padding: 10px;
+	text-align: center;
+}
+
+.square-content img {
+	width: auto;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.item-info {
+	background-color: rgba(71, 44, 216, 0.6);
+	position: absolute;
+	padding: 10px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: right;
+	color: #fff;
+}
+
 footer {
 	position: relative;
 	padding: 20px 0;
@@ -222,22 +326,26 @@ footer .input-group input::-webkit-input-placeholder {
 	color: #fff;
 }
 
-footer p {
-	margin-bottom: 5px;
-}
-
-.footer-block {
-	min-height: 80px;
-	border-left: 1px solid #fff;
-	padding-left: 10px;
+footer a {
+	color: #fff;
 	font-size: 12px;
 }
 
-.footer-block a {
-	color: #fff;
-}
-
-.footer-block a:hover {
+footer a:hover {
 	color: #fff;
 	text-decoration: none;
+}
+
+footer p {
+	font-size: 10px;
+}
+
+.footer-links {
+	padding: 10px;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 10px;
+}
+
+.footer-links a {
+	margin: 0 5%;
 }

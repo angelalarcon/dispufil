@@ -30,10 +30,31 @@
     <div id="menu">
       <div class="container">
         <ul class="nav nav-tabs nav-justified" role="tablist">
-          <li class="active"><a href="#home" role="tab" data-toggle="tab">DISPIFUL</a></li>
-          <li><a href="#" role="tab" data-toggle="tab">PRODUCTOS</a></li>
-          <li><a href="#" role="tab" data-toggle="tab">DONDE ENCONTRANOS</a></li>
-          <li><a href="#" role="tab" data-toggle="tab">CONTACTANOS</a></li>
+          <li class="active">
+            <a href="#home" role="tab" data-toggle="tab">DISPIFUL</a>
+          </li>
+          <li>
+            <a id="products-link" href="#profile" role="tab" data-toggle="tab">PRODUCTOS</a>
+            <div id="products-menu" class="hover-options">
+              <ul>
+                <li>
+                  <a href="#">FILTROS P20</a>
+                </li>
+                <li>
+                  <a href="#">FILTROS TWIN-0"</a>
+                </li>
+                <li>
+                  <a href="#">FILTROS TRIPLE-T"</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#" role="tab" data-toggle="tab">DONDE ENCONTRANOS</a>
+          </li>
+          <li>
+            <a href="#" role="tab" data-toggle="tab">CONTACTANOS</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -76,6 +97,21 @@
             </div>
             <div class="item">
               <img src="images/background-3.jpg" alt="...">
+              <div class="banner-right">
+                <h2>
+                  FILTRO TWIN-T 10"
+                </h2>
+                <p>
+                  MINI DESCRIPCIÓN
+                </p>
+              </div>
+              <div class="banner-left text-right">
+                HOY ES EL DÍA PARA CAMBIAR <br>
+                TU VIDA PARA MEJOR
+              </div>
+              <div class="banner-img">
+                <img src="images/item-2.png">
+              </div>
             </div>
             <div class="item">
               <img src="images/background-4.jpg" alt="...">
@@ -92,7 +128,110 @@
         </div>
 
       </div>
-      <div class="tab-pane" id="profile">2</div>
+      <div class="tab-pane" id="profile">
+        <div id="products">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <h4 class="blue-text">
+                  <strong>FILTROS</strong>
+                </h4>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="item-preview">
+                  <div class="square-item"></div>
+                  <div class="square-content">
+                    <img src="images/item-1.png" alt="">
+                    <div class="item-info">
+                      <strong>P-200</strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-preview">
+                  <div class="square-item"></div>
+                  <div class="square-content">
+                    <img src="images/item-2.png" alt="">
+                    <div class="item-info">
+                      <strong>ALT 10"O</strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-preview">
+                  <div class="square-item"></div>
+                  <div class="square-content">
+                    <img src="images/item-3.png" alt="">
+                    <div class="item-info">
+                      <strong>ALT 10"T</strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-preview">
+                  <div class="square-item"></div>
+                  <div class="square-content">
+                    <img src="images/item-4.png" alt="">
+                    <div class="item-info">
+                      <strong>TWIN 10"-T</strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-preview">
+                  <div class="square-item"></div>
+                  <div class="square-content">
+                    <img src="images/item-5.png" alt="">
+                    <div class="item-info">
+                      <strong>TRIPLE</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="item-preview">
+                  <div class="square-item"></div>
+                  <div class="square-content">
+                    <img src="images/item-6.png" alt="">
+                    <div class="item-info">
+                      <strong>BIG-PLUS</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <h4 class="blue-text">
+                  <strong>BUJIAS</strong>
+                </h4>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="item-preview">
+                  <div class="square-item"></div>
+                  <div class="square-content">
+                    <img src="images/item-6.png" alt="">
+                    <div class="item-info">
+                      <strong>BIG-PLUS</strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-preview">
+                  <div class="square-item"></div>
+                  <div class="square-content">
+                    <img src="images/item-6.png" alt="">
+                    <div class="item-info">
+                      <strong>BIG-PLUS</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="tab-pane" id="messages">3</div>
       <div class="tab-pane" id="settings">4</div>
     </div>
@@ -100,7 +239,7 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-xs-6 text-center">
+          <div class="col-xs-4 text-center">
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Buscar">
               <span class="input-group-btn">
@@ -110,40 +249,24 @@
               </span>
             </div>
           </div>
-          <div class="col-xs-3">
-            <div class="footer-block">
-              <p>
-                Dirección: Urbanización bla bla bla
-              </p>
-              <p>
-                Rif: J 986533-2
-              </p>
-              <p>
-                0212-8765333
-              </p>
+          <div class="col-xs-8">
+            <div class="footer-links">
+              <a href="#">
+                DISPUFIL
+              </a>
+              <a href="#">
+                PRODUCTOS
+              </a>
+              <a href="#">
+                DONDE ENCONTRARNOS
+              </a>
+              <a href="#">
+                CONTACTANOS
+              </a>
             </div>
-          </div>
-          <div class="col-xs-3">
-            <div class="footer-block">
-              <p>
-                <a href="#">DISPUFIL</a>
-              </p>
-              <p>
-                <a href="#">
-                  PRODUCTOS
-                </a>
-              </p>
-              <p>
-                <a href="#">
-                  DONDE ENCONTRARNOS
-                </a>
-              </p>
-              <p>
-                <a href="#">
-                  CONTACTANOS
-                </a>
-              </p>
-            </div>
+            <p>
+              REPRESENTACIONES ISERGI, C.A. RIF: J-29747599-0 TELEFONOS: (0212) 935 1979, (0212) 935 1972, DIRECCIÓN FISCAL: CARRETERA VIEJA CARACAS-BARUTA CENTRO INDUSTRIAL LA NAYA, NIVEL SOTANO, LOCAL S-3 Y S-22, MINI DEPOSITOS BARUTA, CARACAS.
+            </p>
           </div>
         </div>
       </div>
