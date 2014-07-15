@@ -165,7 +165,7 @@ a:focus {
 
 #home_carousel .carousel-control.right, #home_carousel .carousel-control.left {
 	background: transparent;
-	z-index: 999;
+	z-index: 100;
 }
 
 .banner-left {
@@ -348,4 +348,62 @@ footer p {
 
 .footer-links a {
 	margin: 0 5%;
+}
+
+.white-box {
+	background-size: cover;
+	padding: 70px 0;
+}
+
+.water-1 {
+	background-image: url('../images/fondo-water-1.jpg');
+}
+
+.contact {
+	background-image: url('../images/fondo-contact.jpg');
+}
+
+.contact h4 {
+	margin-bottom: 40px;
+}
+
+.contact input, .contact textarea {
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+}
+
+.contact form .row {
+	margin-bottom: 20px;
+}
+
+.gray-text {
+	color: #8d8d8d;
+}
+
+.img-100 {
+	width: 100%;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.btn-blue {
+	background-color: #1458A3;
+	padding: 10px 20px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+
+.btn-blue:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.btn-bottom {
+	position: absolute;
+	bottom: 0;
+	left: -85px;
 }
