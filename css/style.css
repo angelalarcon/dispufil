@@ -12,6 +12,10 @@ a:focus {
 	outline: 0;
 }
 
+.container {
+	width: 940px;
+}
+
 #menu {
 	position: relative;
 	box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
