@@ -3,6 +3,10 @@
     src: url(../fonts/bebasneue.otf);
 }
 
+body {
+	min-width: 940px;
+}
+
 header {
 	padding: 20px 0;
 	border-top: 15px solid #065a9e;
@@ -431,4 +435,9 @@ h4 {
 
 .banner-right a:hover {
 	color: #fff;
+}
+
+.nav-tabs.nav-justified>li {
+	display: table-cell;
+	width: 1%;
 }
