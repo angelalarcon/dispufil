@@ -289,7 +289,7 @@ a:focus {
 	bottom: 0;
 	right: 0;
 	left: 0;
-	padding: 10px;
+	padding: 12px;
 	text-align: center;
 }
 
@@ -300,9 +300,9 @@ a:focus {
 }
 
 .item-info {
-	background-color: rgba(31, 15, 114, 0.7);
+	background-color: #065a9e;
 	position: absolute;
-	padding: 10px;
+	padding: 5px 10px;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -435,6 +435,15 @@ h4 {
 
 .banner-right a:hover {
 	color: #fff;
+}
+
+.banner-right.down {
+	top: 65%;
+	right: 10%;
+}
+
+.banner-left.up {
+	bottom: 40%;
 }
 
 .nav-tabs.nav-justified>li {
