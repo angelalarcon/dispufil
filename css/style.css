@@ -369,7 +369,7 @@ footer p {
 }
 
 .water-1 {
-	background-image: url('../images/fondo-water-1.jpg');
+	background-image: url('../images/fondo-contact.jpg');
 }
 
 .contact {
@@ -449,4 +449,8 @@ h4 {
 .nav-tabs.nav-justified>li {
 	display: table-cell;
 	width: 1%;
+}
+
+#findus p {
+	margin-bottom: 40px;
 }
