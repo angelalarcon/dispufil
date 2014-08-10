@@ -454,3 +454,40 @@ h4 {
 #findus p {
 	margin-bottom: 40px;
 }
+
+.modal-item {
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	padding: 20px 0;
+	border: 1px solid #1357a2;
+	color: #1357a2;
+}
+
+.modal-item .close {
+	color: #1357a2;
+	opacity: 1;
+	font-size: 14px;
+	margin-top: -10px;
+}
+
+.modal-item .close:focus {
+	outline: 0;
+}
+
+.modal-item p {
+	color: #abaaaa;
+	font-size: 12px;
+}
+
+.modal-dialog {
+	margin: 10% auto;
+}
+
+img {
+	max-width: 100%;
+}
+
+#products a:hover {
+	text-decoration: none;
+}
