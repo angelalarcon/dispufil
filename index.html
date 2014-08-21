@@ -163,6 +163,7 @@
                     </p>
                   </div>
                   <div class="col-xs-4">
+                    <h4 style="opacity: 0; cursor: default;">space</h4>
                     <img class="img-100" src="images/about_us-1.jpg" alt="">
                   </div>
                 </div>
@@ -728,7 +729,7 @@
                             </p>
                           </div>
                           <div class="col-sm-5 text-center">
-                            <img src="images/r-10.png">
+                            <img src="images/r-10-big.png">
                           </div>
                         </div>
                       </div>
@@ -951,7 +952,7 @@
                               <strong>BJ-3</strong>
                             </h3>
                             <p>
-                              Bujía para filtro 7" (P-200)<br>
+                              Bujía para filtro 10"<br>
                               Bujía doble acción de celulósa y carbón activado que retiene sedimentos que elimina sabores y olores.<br><br>
                               BULTO: 25 UNIDADES
                             </p>
@@ -1238,16 +1239,16 @@
           </div>
           <div class="col-xs-8">
             <div class="footer-links">
-              <a href="#dispufil">
+              <a href="#dispufil" role="tab" data-toggle="tab">
                 DISPUFIL
               </a>
-              <a href="#products">
+              <a href="#profile" role="tab" data-toggle="tab">
                 PRODUCTOS
               </a>
-              <a href="#findus">
+              <a href="#findus" role="tab" data-toggle="tab">
                 DONDE ENCONTRARNOS
               </a>
-              <a href="#contact">
+              <a href="#contact" role="tab" data-toggle="tab">
                 CONTACTANOS
               </a>
             </div>
@@ -1263,5 +1264,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script>
+      $('.carousel').carousel({
+        interval: 2000
+      })
+    </script>
+
   </body>
-  </html>
+</html>
