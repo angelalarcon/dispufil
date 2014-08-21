@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Bebas Neue;
-    src: url(../fonts/bebasneue.otf);
+	font-family: Bebas Neue;
+	src: url(../fonts/bebasneue.otf);
 }
 
 body {
@@ -12,6 +12,10 @@ header {
 	border-top: 15px solid #065a9e;
 }
 
+a, a:hover {
+	text-decoration: none;
+}
+
 a:focus {
 	outline: 0;
 }
@@ -20,7 +24,7 @@ a:focus {
 	width: 940px;
 }
 
-#menu {
+#menu {|
 	position: relative;
 	box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
 	height: 40px;
@@ -491,4 +495,32 @@ img {
 
 #products a:hover {
 	text-decoration: none;
+}
+
+.btn-small {
+	padding: 5px 10px;
+}
+
+.btn-flat {
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+
+#search {
+	height: 32px;
+	background-color: #d6d5d5;
+	position: relative;
+}
+
+#search::-webkit-input-placeholder {
+	color: #fff;
+}
+
+.input-group-btn {
+	width: 30px;
+	z-index: 999;
+	line-height: 32px;
+	position: absolute;
+	right: 0;
 }
